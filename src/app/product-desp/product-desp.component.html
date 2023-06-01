@@ -1,0 +1,42 @@
+<div class="container ">
+
+    <div class="row">
+
+        <!-- form -->
+        <div class="col-4 mt-4"   *ngFor="let res of result.products">
+           <div class="card">
+            <div class="card-body ">
+                <!-- <div class="row"> -->
+
+                    <!-- <div class="col-4"> -->
+                        <img width="100%" height="200px" src="{{res.thumbnail}}" alt="">
+                    <!-- </div> -->
+
+                  
+                    <!-- <div class="col-8"> -->
+                        <ul class="list-item">
+                            <li type="none"  >Id : {{res.id}}</li>
+                            <li type="none" >Title : {{res.title}}</li>
+                            <li type="none" >Price : {{res.price}}</li>
+                            <li type="none" >Rating : {{res.rating}}</li>
+                        </ul>
+                    <!-- </div> -->
+                 &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+                     <a routerLink="" class="btn">Buy now</a>
+
+
+
+                <!-- </div> -->
+            </div>
+           </div>
+        </div>
+
+
+
+
+
+
+
+    </div>
+</div> 
+<!-- container end -->

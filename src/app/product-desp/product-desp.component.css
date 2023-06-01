@@ -1,0 +1,25 @@
+ 
+.card-body{
+    background-image: linear-gradient(to right ,red , black);
+    /* border: 2px solid purple;
+    border-radius: 50px; */
+    color: white;
+}
+
+.card{
+    box-shadow: 10px 10px 5px black;
+}
+
+.list-item{
+text-align: center;
+}
+
+.card-body img{
+    border-radius: 50px;
+}
+
+.card-body a{
+     background-color: black;
+    color: white;
+    opacity: 0.80;
+}
